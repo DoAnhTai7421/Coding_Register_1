@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+"coding_register_1\startup_stm32f407xx.o"
+"coding_register_1\main.o"
+"coding_register_1\stm32f4xx_it.o"
+"coding_register_1\stm32f4xx_hal_msp.o"
+"coding_register_1\stm32f4xx_hal_tim.o"
+"coding_register_1\stm32f4xx_hal_tim_ex.o"
+"coding_register_1\stm32f4xx_hal_rcc.o"
+"coding_register_1\stm32f4xx_hal_rcc_ex.o"
+"coding_register_1\stm32f4xx_hal_flash.o"
+"coding_register_1\stm32f4xx_hal_flash_ex.o"
+"coding_register_1\stm32f4xx_hal_flash_ramfunc.o"
+"coding_register_1\stm32f4xx_hal_gpio.o"
+"coding_register_1\stm32f4xx_hal_dma_ex.o"
+"coding_register_1\stm32f4xx_hal_dma.o"
+"coding_register_1\stm32f4xx_hal_pwr.o"
+"coding_register_1\stm32f4xx_hal_pwr_ex.o"
+"coding_register_1\stm32f4xx_hal_cortex.o"
+"coding_register_1\stm32f4xx_hal.o"
+"coding_register_1\stm32f4xx_hal_exti.o"
+"coding_register_1\system_stm32f4xx.o"
+"coding_register_1\stm32f4_gpio.o"
+--library_type=microlib --strict --scatter "Coding_Register_1\Coding_Register_1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Coding_Register_1.map" -o Coding_Register_1\Coding_Register_1.axf
